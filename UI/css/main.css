@@ -68,4 +68,5 @@ ul {
 input[type="button"]:hover,
 a:hover {
   opacity: 0.9;
+  color: #f13a59;
 }
