@@ -1,3 +1,4 @@
+/* Consistent sitewide styling */
 * {
   box-sizing: border-box;
   /* border: 0.1px solid black; */
@@ -11,6 +12,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-image: url(../images/landing.jpg);
 }
 .sticky {
   flex: 1;
@@ -18,7 +20,7 @@ body {
 
 header {
   display: flex;
-  background-color: #260957;
+  /* background-color: #260957; */
   justify-content: center;
   padding: 10px;
 }
@@ -65,8 +67,53 @@ ul {
   list-style-type: none;
 }
 
-input[type="button"]:hover,
-a:hover {
+nav ul li a:hover,
+.logo a:hover {
   opacity: 0.9;
   color: #f13a59;
+}
+
+/* Main page styles */
+.center-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-intro p{
+    color: #f2f2f2;
+    padding: 10px;
+}
+.welcome{
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background: #f13a59;
+    border-color: #f13a59;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18pt; 
+}
+.welcome a{
+color: #f2f2f2;
+}
+.welcome a:hover{
+     opacity: 0.5;
+}
+.working{
+    font-weight: bolder;
+    font-size: 40pt;
+}
+.tell-us{
+    font-weight: 800;
+    font-size: 20pt;
+}
+
+@media only screen and (max-width: 425px) {
+  header,
+  footer {
+    width: 100%;
+  }
 }
