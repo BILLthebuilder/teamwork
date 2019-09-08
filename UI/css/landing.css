@@ -1,0 +1,40 @@
+/* Main page styles */
+body{
+    background-image: url(../images/landing.jpg);
+}
+.center-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-intro p{
+    color: #f2f2f2;
+    padding: 10px;
+}
+.welcome{
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background: #f13a59;
+    border-color: #f13a59;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18pt; 
+}
+.welcome a{
+color: #f2f2f2;
+}
+.welcome a:hover{
+     opacity: 0.5;
+}
+.working{
+    font-weight: bolder;
+    font-size: 40pt;
+}
+.tell-us{
+    font-weight: 800;
+    font-size: 20pt;
+}
