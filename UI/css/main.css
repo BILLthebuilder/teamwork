@@ -1,6 +1,7 @@
 /* Consistent sitewide styling */
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* border: 0.1px solid black; */
   margin: 0;
   padding: 0;
@@ -9,23 +10,38 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #f6f7f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .sticky {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 10px;
 }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #260957;
   color: #f2f2f2;
 }
@@ -35,13 +51,20 @@ footer {
 }
 
 .nav {
-  flex: -1;
+  -webkit-box-flex: -1;
+      -ms-flex: -1;
+          flex: -1;
   margin-right: 10%;
 }
 
 nav ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   color: #f2f2f2;
 }
 
@@ -49,7 +72,9 @@ nav ul li a {
   margin-left: 10%;
   font-family: monospace;
   font-size: 15pt;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .logo a {
@@ -58,7 +83,8 @@ nav ul li a {
 
 a {
   padding: 10px;
-  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 ul {
