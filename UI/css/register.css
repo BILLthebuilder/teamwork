@@ -14,18 +14,29 @@ header{
 .password1,
 .password2,
 .regbutton {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 20px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
 }
 
 .welcomereg,
 .signin {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 10px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 
@@ -40,6 +51,7 @@ input[type="password"] {
     border-bottom-width: 3px;
     border-radius: 5px;
     outline: 0;
+    -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
 
@@ -58,6 +70,7 @@ form input[type="submit"] {
 }
 
 input[type="submit"]:active {
-    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
 }
 
