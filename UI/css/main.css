@@ -35,6 +35,11 @@ header {
   padding: 10px;
 }
 
+header ul{
+    display: inline-flex;
+    align-items: center;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
