@@ -1,0 +1,20 @@
+body{
+    background-color: #f6f7f8;
+}
+header{
+    background-color: #260957;
+    height: 13%;
+}
+
+
+
+.material-icons {
+    /* font-size: 62px; */
+    color: #f2f2f2;
+    cursor: pointer;
+}
+.material-icons:hover{
+  opacity: 0.9;
+  color: #f13a59;
+}
+
