@@ -1,9 +1,5 @@
-body{
-    background-color: #f6f7f8;
-}
 header{
     background-color: #260957;
-    height: 13%;
 }
 .material-icons {
     /* font-size: 62px; */
@@ -14,4 +10,34 @@ header{
   opacity: 0.9;
   color: #f13a59;
 }
+.logo{
+    padding-top: 0;
+}
 
+/* Post card styles */
+
+.article-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 40%;
+}
+.article{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.date-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.article-profile-details{
+    display: flex;
+    align-items: center;
+}
+.article-text{
+    display: flex;
+    
+}
